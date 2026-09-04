@@ -1,0 +1,21 @@
+[project]
+name = "intership-scam-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shaiksuhail-824", email = "shaiksuhail74818@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "dvc>=3.67.1",
+    "numpy>=2.5.2",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+intership-scam-prediction = "intership_scam_prediction:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
